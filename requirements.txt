@@ -1,0 +1,21 @@
+# dades
+pandas
+numpy
+
+# visualitzacio
+matplotlib
+seaborn
+rich
+
+# machine learning
+scikit-learn
+
+# kaggle
+kagglehub
+
+# rutes
+pathlib
+
+# notebook
+jupyter
+ipykernel
