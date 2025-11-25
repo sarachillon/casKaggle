@@ -52,6 +52,8 @@ def data_description(data):
         for col in cols:
             unique_count = data[col].nunique()
             null_count = data[col].isnull().sum()
+            null_count += (data[col] == -1).sum()  # Considerar -1 como nulo
+            null_count += (data[col] == "-1").sum()  # Considerar "-1" como nulo
             table.add_row(col, str(unique_count), str(null_count))
 
         console.print(table)
