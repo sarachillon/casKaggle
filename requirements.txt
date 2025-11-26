@@ -6,15 +6,13 @@ numpy
 matplotlib
 seaborn
 rich
+scipy
 
 # machine learning
 scikit-learn
 
 # kaggle
 kagglehub
-
-# rutes
-pathlib
 
 # notebook
 jupyter
