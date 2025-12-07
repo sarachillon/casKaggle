@@ -7,6 +7,7 @@ matplotlib
 seaborn
 rich
 scipy
+statsmodels
 
 # machine learning
 scikit-learn
@@ -17,3 +18,5 @@ kagglehub
 # notebook
 jupyter
 ipykernel
+wordcloud
+nltk
