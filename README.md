@@ -8,7 +8,6 @@ A partir de la informació proporcionada a les ofertes com ara Salary Estimate, 
 El projecte s'ha separat en diferents arxius:
 - EDA: Primera exploració de les dades
 - Preprocessing: Neteja i preparació del dataset, eliminant valors nuls, incoherències i transformant variables categòriques.
-- Metric selection: Selecció de la mètrica adient per avaluar posteriorment el rendiment dels models de Machine Larning.
 - Model selection: Entrenament de models de regressió per predir el salari mitjà de cada oferta. També s'escull el millor model fent servir tècniques de validació creuada.
 - Anàlisi final: Anàlisi del rendiment del model en base a les mètriques escollides.
 
